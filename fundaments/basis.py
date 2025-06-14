@@ -39,3 +39,20 @@ def greet(name):
     print(f"Hello, {name}!")
     
 greet("Diego")
+
+# Dictionaries
+Person = {
+    "name": "Diego",
+    "age": 21,
+    "active": True,
+}
+
+print(f"Name: {Person['name']}")    
+print(f"Age: {Person['age']}")
+
+# Functions
+def multiply(a, b):
+    return a * b
+
+result = multiply(3, 4)
+print(f"Multiplication result: {result}")
